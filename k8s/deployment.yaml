@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: product-service-app
-        image: dailycodebuffer/productservice
+        image: IMAGE_URL/productservice
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
